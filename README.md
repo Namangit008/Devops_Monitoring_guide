@@ -1,52 +1,44 @@
 
-# DevOps Monitoring Setup Guides 🚀
+# 📡 DevOps Monitoring Guide
 
-Welcome to the DevOps Monitoring Setup repository!  
-This repo contains hands-on, step-by-step setup documentation for two essential monitoring tools used in real-world DevOps environments:
-
-- 📡 **Nagios** – Infrastructure and service monitoring with alerting
-- 📊 **Datadog** – Cloud-native monitoring and visualization with custom dashboards
+This repository provides hands-on monitoring setups using multiple industry tools. Each folder contains configuration files, setup scripts, and detailed documentation.
 
 ---
 
-## 📘 Guides
+## 🔧 Monitoring Tools Covered
 
-### 🔧 [Nagios Setup Guide](nagios-setup-guide.md)
-Set up Nagios Core on Ubuntu 22.04 EC2 instances, configure NRPE for remote checks, and enable alerting with email support.
-
-### 📊 [Datadog Setup Guide](datadog-setup-guide.md)
-Install and configure the Datadog Agent, build dashboards, and create alerts for key system metrics on AWS EC2.
-
----
-
-## 💡 About
-
-These guides were created by **Naman Jain**,  
-🚀 *DevOps Engineer Intern @ Nukkad Shops Technologies (India) Pvt Ltd*
-
-📌 The purpose of this repo is to document real-time hands-on learning and provide easy-to-follow instructions for beginners exploring DevOps monitoring tools.
+| Tool            | Description |
+|------------------|-------------|
+| [Nagios](./nagios) | Open-source infrastructure monitoring tool with email alerting |
+| [Datadog](./datadog) | Cloud-based monitoring and analytics for servers, databases, tools, and services |
+| [CloudWatch + Grafana](./cloudwatch-grafana) | AWS-native monitoring + log/metric visualization using Grafana dashboards |
 
 ---
 
-## 📬 Feedback & Contributions
+## 📁 Repository Structure
 
-Feel free to:
-- ⭐ Star this repo if you found it helpful
-- 🛠️ Fork and contribute improvements
-- 📩 Connect with me on [LinkedIn](https://www.linkedin.com/in/your-link)
+```
+Devops_Monitoring_guide/
+├── nagios/
+│   └── ... (configs and scripts)
+├── datadog/
+│   └── ... (configs and setup guide)
+├── cloudwatch-grafana/
+│   ├── amazon-cloudwatch-agent.json
+│   ├── CloudWatch_Grafana_EC2_Setup_README.md
+│   └── screenshots/
+│       └── (dashboard images)
+├── README.md ← You are here
+```
 
 ---
 
-## 🛠️ Tools Covered
+## 📌 Author
 
-- Nagios Core  
-- NRPE (Remote Plugin Executor)  
-- Datadog Agent & Dashboards  
-- Linux (Ubuntu 22.04)  
-- AWS EC2
+**Naman Jain** — DevOps Intern | Cloud & Monitoring Enthusiast  
+📬 [LinkedIn Profile](https://www.linkedin.com/in/naman-jain-442205271)  
+📂 GitHub Repo: [Namangit008/Devops_Monitoring_guide](https://github.com/Namangit008/Devops_Monitoring_guide)
 
 ---
 
-## License
-
-This project is open-source and free to use for learning and research.
+> This guide was built during hands-on DevOps training and is meant to serve as a complete practical reference for infrastructure monitoring.
